@@ -2,6 +2,8 @@
 // apb_pkt_pkg.sv
 // Constants for the APB 4-port packet switch + packet generator.
 // -----------------------------------------------------------------------------
+
+
 package apb_pkt_pkg;
 localparam int unsigned ADDR_W = 16;
 localparam int unsigned DATA_W = 32;

@@ -2,6 +2,11 @@
 // apb_pkt_switch.sv
 // AMBA APB3 CSR front-end for a 4-port packet switch + packet generator.
 // -----------------------------------------------------------------------------
+
+`include "apb_pkt_pkg.sv"
+`include "pkt_generator.sv"
+`include "pkt_switch.sv"
+
 module apb_pkt_switch
 import apb_pkt_pkg::*;
 (
